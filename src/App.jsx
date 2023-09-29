@@ -3,11 +3,12 @@ import About from "./componentes/about/About";
 import Navbar from "./components/navbar/Navbar";
 import { useEffect } from "react";
 import { useState } from "react";
-import Skills from "./components/skills/Skills";
-import Info from "./components/info/Info";
-import Footer from "./components/footer/Footer";
-import Slider from "./components/slider/Slider";
  */
+import Skills from "./componentes/skills/Skills";
+/* import Info from "./components/info/Info";
+import Footer from "./components/footer/Footer";
+import Slider from "./components/slider/Slider"; */
+
 function App() {
   /*   const [scrollHeight, setScrollHeight] = useState(0);
 
@@ -29,13 +30,13 @@ function App() {
         <About />
       </section>
 
-      {/*       <section id="proyects">
+      {/*        <section id="proyects">
         <Slider />
-      </section>
+      </section> */}
       <section id="skills">
         <Skills />
       </section>
-      <section id="info">
+      {/*    <section id="info">
         <Info />
       </section>
       <section id="contact">
