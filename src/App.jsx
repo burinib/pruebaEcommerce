@@ -4,8 +4,8 @@ import Navbar from "./components/navbar/Navbar";
 import { useEffect } from "react";
 import { useState } from "react";
  */
-import Skills from "./componentes/skills/Skills";
-/* import Info from "./components/info/Info";
+/* import Skills from "./componentes/skills/Skills";
+ */ /* import Info from "./components/info/Info";
 import Footer from "./components/footer/Footer";
 import Slider from "./components/slider/Slider"; */
 
@@ -33,9 +33,9 @@ function App() {
       {/*        <section id="proyects">
         <Slider />
       </section> */}
-      <section id="skills">
+      {/*      <section id="skills">
         <Skills />
-      </section>
+      </section> */}
       {/*    <section id="info">
         <Info />
       </section>
