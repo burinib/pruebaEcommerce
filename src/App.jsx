@@ -1,5 +1,20 @@
 function App() {
-  return <h1>app</h1>;
+  return (
+    <div
+      style={{
+        backgroundColor: "blue",
+        height: "100vh",
+      }}
+    >
+      <h1
+        style={{
+          color: "red",
+        }}
+      >
+        app
+      </h1>
+    </div>
+  );
 }
 
 export default App;
